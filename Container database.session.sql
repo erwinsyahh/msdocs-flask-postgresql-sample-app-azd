@@ -82,35 +82,23 @@ INSERT INTO review_new (restaurant_id, review_date, username, rating, review) VA
 
 --- Insert more data into menu table
 INSERT INTO menu (restaurant_id, item_name, price, description) VALUES
--- Namaaz Dining (ID 1)
-(1, 'Nasi Goreng Molecular', 250000.00, 'Signature dish with foamed sambal and aromatic rice reinvented with molecular techniques.'),
-(1, 'Rendang Sphere', 230000.00, 'Classic rendang beef served in a creative gel sphere that bursts with flavor.'),
-(1, 'Es Teler Nitro', 120000.00, 'Frozen dessert of Indonesian es teler served with liquid nitrogen presentation.'),
-
--- Sate Khas Senayan (ID 2)
-(2, 'Sate Ayam', 40000.00, 'Grilled chicken skewers served with savory peanut sauce and rice cake.'),
-(2, 'Gado-Gado', 35000.00, 'Vegetable salad with peanut dressing and boiled eggs.'),
-(2, 'Nasi Campur', 55000.00, 'Mixed rice dish with a variety of Indonesian side dishes.'),
-
--- Bunga Rampai (ID 3)
-(3, 'Nasi Kuning Komplit', 95000.00, 'Yellow rice platter with ayam opor, sambal goreng, and perkedel.'),
-(3, 'Dendeng Batokok', 110000.00, 'Minang-style thin beef slices grilled with chili sambal.'),
-(3, 'Klepon Cake', 55000.00, 'Modern dessert twist on traditional green rice cake filled with palm sugar.'),
-
--- Social House (ID 4)
-(4, 'Truffle Fries', 75000.00, 'Crispy shoestring fries tossed with truffle oil and parmesan.'),
-(4, 'Salmon Poke Bowl', 125000.00, 'Hawaiian-inspired bowl with salmon sashimi, avocado, and sesame dressing.'),
-(4, 'Spaghetti Aglio e Olio', 95000.00, 'Simple yet flavorful pasta with garlic, olive oil, and chili flakes.'),
-
--- Teras Dharmawangsa (ID 5)
-(5, 'Ayam Penyet', 60000.00, 'Smashed fried chicken served with sambal and rice.'),
-(5, 'Tahu Tempe', 40000.00, 'Fried tofu and tempeh served with spicy soy sauce.'),
-(5, 'Sop Buntut', 80000.00, 'Oxtail soup with vegetables and aromatic spices.'),
-
--- Plataran Menteng (ID 6)
-(6, 'Beef Rendang', 150000.00, 'Slow-cooked beef in rich coconut milk and spices.'),
-(6, 'Ayam Betutu', 120000.00, 'Balinese-style chicken marinated with spices and wrapped in banana leaves.'),
-(6, 'Es Campur', 50000.00, 'Refreshing mixed Indonesian dessert with fruits and shaved ice.');
+(2, 'Nasi Kuning Komplit', 95000.00, 'Yellow rice platter with ayam opor, sambal goreng, and perkedel.'),
+(2, 'Dendeng Batokok', 110000.00, 'Minang-style thin beef slices grilled with chili sambal.'),
+(2, 'Klepon Cake', 55000.00, 'Modern dessert twist on traditional green rice cake filled with palm sugar.'),
+(3, 'Truffle Fries', 75000.00, 'Crispy shoestring fries tossed with truffle oil and parmesan.'),
+(3, 'Salmon Poke Bowl', 125000.00, 'Hawaiian-inspired bowl with salmon sashimi, avocado, and sesame dressing.'),
+(3, 'Spaghetti Aglio e Olio', 95000.00, 'Simple yet flavorful pasta with garlic, olive oil, and chili flakes.'),
+(4, 'Ayam Penyet', 60000.00, 'Smashed fried chicken served with sambal and rice.'),
+(4, 'Tahu Tempe', 40000.00, 'Fried tofu and tempeh served with spicy soy sauce.'),
+(4, 'Sop Buntut', 80000.00, 'Oxtail soup with vegetables and aromatic spices.'),
+(5, 'Beef Rendang', 150000.00, 'Slow-cooked beef in rich coconut milk and spices.'),
+(5, 'Ayam Betutu', 120000.00, 'Balinese-style chicken marinated with spices and wrapped in banana leaves.'),
+(5, 'Es Campur', 50000.00, 'Refreshing mixed Indonesian dessert with fruits and shaved ice.');
 
 --- CRUD operations
 -- CREATE (Insert)
+
+
+SELECT
+* 
+FROM review_new;
